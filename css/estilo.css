@@ -96,9 +96,10 @@ body{
     position:absolute;
     top:36px;
     right:8px;
-    color:lightgray;
+    color:white;
     z-index: 1;
     font-size:40px;
+    filter: drop-shadow(0px 5px 3px rgba(128, 128, 128, 0.5));
 }
 .stories-background{
     position:absolute;
