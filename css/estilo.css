@@ -51,10 +51,7 @@ body{
     width:614px;
     background-color: transparent;
 }
-.spaceholder-sidebar{
-    width:293px;
-    background-color: transparent;
-}
+
 .stories{
     width:100%;
     height: 118px;
@@ -182,20 +179,12 @@ margin:10px 5px;
     color:#0095F6;
 }
 
-.container-fixo{
-    width:100%;
-    left:auto;
-    position: fixed;
-    top:54px;
-    left:0;
-    right:0;
-    display:flex;
-}
-.spaceholder-principal{
-    width:614px;
 
-}
+
 .sidebar{
+    position:sticky;
+    align-self:flex-start;
+    top:90px;
     width: 293px;   
     margin: 36px auto;
     display: flex;
