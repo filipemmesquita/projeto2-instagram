@@ -1,0 +1,264 @@
+ion-icon{
+    font-size: 20px;
+}
+body{
+    font-family: 'Encode Sans', sans-serif;
+    background-color: #E5E5E5;
+}
+
+*{
+    box-sizing: border-box;
+}
+.topo-fixo{
+    height:54px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    z-index: 2;
+}
+.barra-pesquisa{
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+.container-topo{
+    width:907px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-topo > div{
+    width:148px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.linha{
+    height:20px;
+    border-left: 1px solid #DBDBDB;
+}
+.container{
+    margin: 54px auto 10px;
+    width:907px;
+    display:flex;
+    background-color:transparent;
+}
+.principal{
+    width:614px;
+    background-color: transparent;
+}
+.spaceholder-sidebar{
+    width:293px;
+    background-color: transparent;
+}
+.stories{
+    width:100%;
+    height: 118px;
+    margin:34px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow:scroll;
+    padding-left:14px;
+    position:relative;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color:#FFFFFF;  
+    -ms-overflow-style: none;  /* ie e edge */
+    scrollbar-width: none;  /* firefox */
+  }
+/*p browsers webkit*/
+.stories::-webkit-scrollbar {
+    display: none;
+  }
+
+.celula{
+    margin-right: 14px;
+    text-align: center;
+}
+.celula div {
+    position:relative;
+    min-width: 66px;
+    min-height: 66px;
+}
+.celula h4{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+}
+.stories ion-icon{
+    position:absolute;
+    top:36px;
+    right:8px;
+    color:lightgray;
+    z-index: 1;
+    font-size:40px;
+}
+.stories-background{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.pfp-stories{
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+.timeline{
+    width:100%;
+    background-color: transparent;
+}
+.post{
+    margin-bottom: 60px;
+    background-color: #FFFFFF;
+}
+.post h1{
+    margin-left: 15px;
+}
+.post div:last-child{
+    border-top: 1px solid #DBDBDB;
+    padding-top: 15px;
+}
+.post > img{
+    width:100%;
+}
+.post div{
+    display: flex;
+    align-items: center;
+}
+.post .pfp{
+    width: 32px;
+    margin:15px 0px 15px 15px ;
+} 
+.post ion-icon{
+margin:10px 5px;
+
+}
+.post .direita{
+    margin-left: auto;
+}
+
+.pfp-curtida{
+    width:20px;
+    margin:0px 5px 15px 15px;
+}
+.post p{
+    margin:0px 15px 10px ;
+}
+.post strong{
+    font-weight: bold;
+    
+}
+.comment{
+    display:flex;
+
+}
+.post input{
+    width:100%;
+    border-style: none;
+    background-color: inherit;
+    color:black;
+    font-size: 20px;
+    
+    margin:0px 15px 15px;
+}
+.post ::placeholder{
+    color:lightgray;
+}
+.post h2{
+    font-size: 20px;
+    margin:0px 15px 15px 0px;
+    color:#B2DFFC;
+    transition:300ms;
+}
+.post h2:hover{
+    color:#0095F6;
+}
+
+.container-fixo{
+    width:100%;
+    left:auto;
+    position: fixed;
+    top:54px;
+    left:0;
+    right:0;
+    display:flex;
+}
+.spaceholder-principal{
+    width:614px;
+
+}
+.sidebar{
+    width: 293px;   
+    margin: 36px auto;
+    display: flex;
+    flex-direction: column;
+    padding:15px 0px 0px 30px;
+}
+.sidebar h1{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+}
+.sidebar h2{
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color:#8E8E8E;
+}
+.pfp-sidebar{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.pfp-sidebar div{
+    margin-right: 10px;
+}
+.sugestoes > div{
+    display:flex;
+    justify-content: left;
+    margin-top: 10px;
+    align-items: center;
+}
+.sugestoes h1{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color:#262626;
+margin-left: 10px;
+}
+.sugestoes h2{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color:#8E8E8E;
+    
+margin-left: 10px;
+}
+.sugestoes h3{
+    font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color:#8E8E8E;
+}
+.sugestoes h4{
+    font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color:#262626;
+margin-left: auto;
+}
+.sugestoes h5{
+    font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color:#139EF2;
+
+margin-left: auto;
+}

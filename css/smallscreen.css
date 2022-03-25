@@ -1,0 +1,19 @@
+.small-hide{
+    display:none;
+}
+.small-show{
+    display: initial;
+}
+
+.container-topo > div{
+width:auto;
+margin:0 10px;
+}
+.principal{
+    width:100%
+}
+
+.stories{
+    background-color:transparent;
+    margin: 0px;
+}
