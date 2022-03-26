@@ -19,7 +19,7 @@ body{
     justify-content: center;
     background: #FFFFFF;
     border: 1px solid #DBDBDB;
-    z-index: 2;
+    z-index: 3;
 }
 .barra-pesquisa{
     background: #FAFAFA;
@@ -79,8 +79,9 @@ body{
 }
 .celula div {
     position:relative;
-    min-width: 66px;
-    min-height: 66px;
+    width: 66px;
+    background-image: url("stories_background 1.png");
+    height: 66px;
 }
 .celula h4{
     margin-top: 5px;
@@ -94,19 +95,16 @@ body{
     top:36px;
     right:8px;
     color:white;
-    z-index: 1;
+    z-index: 2;
     font-size:40px;
     filter: drop-shadow(0px 5px 3px rgba(128, 128, 128, 0.5));
 }
-.stories-background{
-    position:absolute;
-    top:0;
-    left:0;
-}
+
 .pfp-stories{
     position:absolute;
     top:5px;
     left:5px;
+    z-index: 1;
 }
 .timeline{
     width:100%;
