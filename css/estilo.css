@@ -59,19 +59,20 @@ body{
     display: flex;
     justify-content: left;
     align-items: center;
-    overflow:scroll;
+    /* overflow:scroll; apesar de manter a funcionalidade, a seta n para quieta em um lugar */
+    overflow:hidden;
     padding-left:14px;
     position:relative;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     background-color:#FFFFFF;  
-    -ms-overflow-style: none;  /* ie e edge */
-    scrollbar-width: none;  /* firefox */
+   /* -ms-overflow-style: none;  ie e edge */
+   /* scrollbar-width: none;   firefox */
   }
-/*p browsers webkit*/
+/*p browsers webkit
 .stories::-webkit-scrollbar {
     display: none;
-  }
+  }*/
 
 .celula{
     margin-right: 14px;
