@@ -243,11 +243,25 @@ line-height: 14px;
 color:#262626;
 margin-left: auto;
 }
+
 .sugestoes h5{
     font-weight: 500;
 font-size: 12px;
 line-height: 14px;
 color:#139EF2;
-
 margin-left: auto;
+}
+
+.baixo-fixo {
+    height:54px;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    z-index: 3;
 }
