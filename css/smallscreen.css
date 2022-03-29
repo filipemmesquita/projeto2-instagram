@@ -12,7 +12,9 @@ margin:0 10px;
 .principal{
     width:100%
 }
-
+.container{
+    width:100%;
+}
 .stories{
     background-color:transparent;
     margin: 0px;
